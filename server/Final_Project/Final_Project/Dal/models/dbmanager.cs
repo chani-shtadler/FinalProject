@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 
-namespace Final_Project.models;
+namespace Final_Project.Dal.models;
 
 public partial class dbmanager : DbContext
 {

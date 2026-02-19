@@ -20,4 +20,13 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="BL\Api\" />
+    <Folder Include="BL\Models\" />
+    <Folder Include="BL\Services\" />
+    <Folder Include="Dal\Services\" />
+    <Folder Include="Dal\Api\" />
+    <Folder Include="WebApi\" />
+  </ItemGroup>
+
 </Project>

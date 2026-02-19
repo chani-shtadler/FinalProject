@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Final_Project.models;
+namespace Final_Project.Dal.models;
 
 public partial class Gallery
 {
