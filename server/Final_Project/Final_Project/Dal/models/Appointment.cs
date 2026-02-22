@@ -16,6 +16,7 @@ public partial class Appointment
     public DateTime EndTime { get; set; }
 
     public string? Status { get; set; }
+    //public Boolean IsAvailable { get; set; }
 
     public virtual Service Service { get; set; } = null!;
 
