@@ -24,7 +24,6 @@
   <ItemGroup>
     <Folder Include="BL\Api\" />
     <Folder Include="BL\Models\" />
-    <Folder Include="BL\Services\" />
     <Folder Include="Dal\Services\" />
     <Folder Include="Dal\Api\" />
   </ItemGroup>
