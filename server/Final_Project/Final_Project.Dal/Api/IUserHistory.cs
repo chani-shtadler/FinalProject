@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace Final_Project.Dal.Api
 {
-    internal interface IUserHistory
+    public interface IUserHistory
     {
         List<models.Appointment> appointmentsHistory(int userId);
-        
     }
 }

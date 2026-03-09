@@ -33,7 +33,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\Final_Project.BL\Final_Project.BL.csproj" />
+    <ProjectReference Include="..\Final_Project.Dal\Final_Project.Dal.csproj" />
   </ItemGroup>
 
 </Project>

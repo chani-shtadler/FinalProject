@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace Final_Project.Dal.Servises
 {
-    internal class UserService : Api.IUserHistory
+    public class UserService : Api.IUserHistory
     {
-        List<Appointment> IUserHistory.appointmentsHistory(int userId)
+        public List<Appointment> appointmentsHistory(int userId)
         {
             // Query the appointments table for the given userId and return the list
             using (var context = new models.dbmanager())

@@ -8,8 +8,9 @@ using Final_Project.Dal.Api;
 
 namespace Final_Project.BL.Api
 {
-    internal interface IHistoryUser
+    public interface IHistoryUser
     {
-        List<HistoryAppointments> appointmentsHistoryBL(int userId);
+        List<HistoryAppointments> appointmentsHistoryBL(List<Final_Project.Dal.models.Appointment> appointments);
+        List<HistoryAppointments> GetUserHistory(int userId);
     }
 }
